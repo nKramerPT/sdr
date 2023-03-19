@@ -11,7 +11,7 @@ sudo iptables -A INPUT -d 146.66.156.0/23 -j REJECT
 sudo iptables -A INPUT -d 153.254.86.0/24 -j REJECT
 sudo iptables -A INPUT -d 155.133.224.0/24 -j REJECT
 sudo iptables -A INPUT -d 155.133.225.0/24 -j REJECT
-#sudo iptables -A INPUT -d 155.133.226.0/24 -j REJECT
+sudo iptables -A INPUT -d 155.133.226.0/24 -j REJECT
 sudo iptables -A INPUT -d 155.133.227.0/24 -j REJECT
 sudo iptables -A INPUT -d 155.133.228.0/23 -j REJECT
 sudo iptables -A INPUT -d 155.133.230.0/23 -j REJECT
@@ -23,10 +23,10 @@ sudo iptables -A INPUT -d 155.133.239.0/24 -j REJECT
 sudo iptables -A INPUT -d 155.133.242.0/23 -j REJECT
 sudo iptables -A INPUT -d 155.133.244.0/24 -j REJECT
 sudo iptables -A INPUT -d 155.133.245.0/24 -j REJECT
-sudo iptables -A INPUT -d 155.133.246.0/23 -j REJECT
+#sudo iptables -A INPUT -d 155.133.246.0/23 -j REJECT
 sudo iptables -A INPUT -d 155.133.248.0/24 -j REJECT
 sudo iptables -A INPUT -d 155.133.249.0/24 -j REJECT
-#sudo iptables -A INPUT -d 155.133.250.0/24 -j REJECT
+sudo iptables -A INPUT -d 155.133.250.0/24 -j REJECT
 sudo iptables -A INPUT -d 155.133.251.0/24 -j REJECT
 sudo iptables -A INPUT -d 155.133.252.0/24 -j REJECT
 sudo iptables -A INPUT -d 155.133.253.0/24 -j REJECT
@@ -36,7 +36,7 @@ sudo iptables -A INPUT -d 162.254.192.0/24 -j REJECT
 sudo iptables -A INPUT -d 162.254.193.0/24 -j REJECT
 sudo iptables -A INPUT -d 162.254.194.0/23 -j REJECT
 sudo iptables -A INPUT -d 162.254.196.0/24 -j REJECT
-#sudo iptables -A INPUT -d 162.254.197.0/24 -j REJECT
+sudo iptables -A INPUT -d 162.254.197.0/24 -j REJECT
 sudo iptables -A INPUT -d 162.254.198.0/24 -j REJECT
 sudo iptables -A INPUT -d 162.254.199.0/24 -j REJECT
 sudo iptables -A INPUT -d 185.25.180.0/23 -j REJECT
